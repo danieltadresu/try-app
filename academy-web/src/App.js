@@ -16,12 +16,15 @@ function App() {
         <div className={classes.Box}>
           <h3 className={classes.SubTitle}>
             I am passionate about development
-            — I love automating things, modern technologies and good developer experiencie.
+            — <span className={classes.SubMarkdown}>I love automating things</span>,
+            <span className={classes.SubMarkdown}> modern technologies</span> and
+            <span className={classes.SubMarkdown}> good developer experiencie</span>.
           </h3>
           <h3 className={classes.SubTitle}>
             I am a perfectionist. I pay attention to details,
             because I love when things look good and professionnal.
-            I am also self-taught, and I never stop learning.
+            I am also <span className={classes.SubMarkdown}>self-taught</span>,
+            and I never stop learning.
           </h3>
         </div>
       </main>
