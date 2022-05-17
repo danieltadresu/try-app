@@ -9,7 +9,8 @@ function App() {
       <main className={classes.Main}>
         <div className={classes.Box}>
           <h1 className={classes.Title}>
-            Hey, I am Daniel! Full-stack web and mobile developer, from Chile
+            Hey, I am <span className={classes.Markdown}>Daniel</span>
+            <br/>Full-stack web and mobile developer, from Chile
           </h1>
         </div>
         <div className={classes.Box}>
