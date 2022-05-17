@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .Body {
   background-color: #0d1117;
@@ -28,14 +28,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-end;
+  text-align: right; /* TO DO: Make effect when runs page */
 }
 
 .Title {
-  font-size: 3rem;
+  font-size: 3.4rem;
 }
 
 .SubTitle {
   font-size: 1.5rem;
   margin: 1rem;
+}
+
+.Markdown {
+  color: #1f6feb;
+  font-weight: 900;
 }
 /*** End Main Content ***/
