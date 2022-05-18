@@ -4,7 +4,7 @@ function App() {
   return (
     <div className={classes.Body}>
       <header className={classes.Header}>
-        Header
+        {/* Header */}
       </header>
       <main className={classes.Main}>
         <div className={classes.Box}>
