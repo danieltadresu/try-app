@@ -1,11 +1,10 @@
 import classes from './App.module.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className={classes.Body}>
-      <header className={classes.Header}>
-        {/* Header */}
-      </header>
+      <Header />
       <main className={classes.Main}>
         <div className={classes.Box}>
           <h1 className={classes.Title}>
