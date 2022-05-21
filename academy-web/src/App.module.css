@@ -2,13 +2,6 @@
 
 .Body {}
 
-/*** Header Content ***/
-.Header {
-  min-height: 200px;
-  width: 100%;
-}
-/*** End Header Content ***/
-
 /*** Main Content ***/
 .Main {
   display: flex;
