@@ -1,7 +1,6 @@
 /*** Header Content ***/
 .Header {
   width: 100%;
-  border: 1px solid purple;
 
   display: flex;
 }
@@ -17,7 +16,6 @@
 
   display: flex;
   justify-content: flex-end;
-  border: 1px solid red;
 }
 
 /*** End Header Content ***/
