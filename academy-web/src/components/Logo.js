@@ -5,7 +5,7 @@ function Logo() {
     <div
       className={classes.Logo}
       style={{
-        height: '100px'
+        height: '100px' // TO DO: Make dynamic height value getting it as a prop.
       }}
     >
       <img
