@@ -1,0 +1,30 @@
+.NavigationItems {
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Container {
+  background-color: rgb(47, 51, 68);
+  min-height: 56px;
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-style: solid;
+
+  border-color: rgb(47, 51, 68);;
+
+  display: flex;
+  align-items: center;
+}
+
+.Items {
+  padding: 0 .7rem;
+}
