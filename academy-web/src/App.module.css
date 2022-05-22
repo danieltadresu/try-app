@@ -5,7 +5,6 @@
 /*** Main Content ***/
 .Main {
   display: flex;
-  margin: 1rem;
 }
 
 .LeftBox {
@@ -34,7 +33,7 @@
 
 .SubTitle {
   font-size: 1.3rem;
-  margin: 1rem;
+  margin: 1rem 0;
   line-height: 1.4;
 }
 

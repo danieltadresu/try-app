@@ -1,0 +1,16 @@
+.NavigationItems {
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Container {
+  background-color: black;
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+}

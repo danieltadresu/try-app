@@ -16,6 +16,8 @@
   padding: 3rem 8rem 3rem 3rem;
 
   display: flex;
+  justify-content: flex-end;
+  border: 1px solid red;
 }
 
 /*** End Header Content ***/
