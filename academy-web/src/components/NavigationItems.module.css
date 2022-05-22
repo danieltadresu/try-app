@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .NavigationItems {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .9rem;
+
   box-sizing: border-box;
   border-radius: 5px;
 
