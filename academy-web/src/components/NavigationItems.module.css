@@ -7,24 +7,62 @@
 }
 
 .Container {
+  display: flex;
+
   background-color: rgb(47, 51, 68);
-  min-height: 56px;
+  border-radius: 8px;
+}
 
+.FirstItem {
   border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
-
   border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-top-style: solid;
 
-  border-color: rgb(47, 51, 68);;
+  padding: 0 1rem;
+  cursor: pointer;
+
+  min-height: 56px;
 
   display: flex;
   align-items: center;
 }
 
-.Items {
-  padding: 0 .7rem;
+.SecondItem {
+  padding: 0 1rem;
+  cursor: pointer;
+
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+}
+
+.ThirdItem {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+
+  padding: 0 1rem;
+  cursor: pointer;
+
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+}
+
+.FirstItem:hover {
+  background-color: rgb(28, 29, 36);
+
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.SecondItem:hover {
+  background-color: rgb(28, 29, 36);
+}
+
+.ThirdItem:hover {
+  background-color: rgb(28, 29, 36);
+
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
 }
