@@ -3,13 +3,13 @@ function NavigationItems() {
   return (
     <ul className={classes.NavigationItems}>
       <main className={classes.Container}>
-        <li className={classes.Items}>
+        <li className={classes.FirstItem}>
           GitHub
         </li>
-        <li className={classes.Items}>
+        <li className={classes.SecondItem}>
           Mail
         </li>
-        <li className={classes.Items}>
+        <li className={classes.ThirdItem}>
           Projects
         </li>
       </main>
