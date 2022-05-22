@@ -8,9 +8,22 @@
 }
 
 .Container {
-  background-color: black;
+  background-color: rgb(47, 51, 68);
   min-height: 56px;
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top-style: solid;
 
   display: flex;
   align-items: center;
+}
+
+.Items {
+  padding: 0 .7rem;
 }
