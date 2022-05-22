@@ -6,13 +6,13 @@ function App() {
     <div className={classes.Body}>
       <Header />
       <main className={classes.Main}>
-        <div className={classes.Box}>
+        <div className={classes.LeftBox}>
           <h1 className={classes.Title}>
             Hey, I am <span className={classes.Markdown}>Daniel</span>
             <br/>Full-stack web and mobile developer, from Chile
           </h1>
         </div>
-        <div className={classes.Box}>
+        <div className={classes.RightBox}>
           <h3 className={classes.SubTitle}>
             I am passionate about development
             — <span className={classes.SubMarkdown}>I love automating things</span>,
