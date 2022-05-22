@@ -1,6 +1,21 @@
 /*** Header Content ***/
 .Header {
-  min-height: 200px;
   width: 100%;
+  border: 1px solid purple;
+
+  display: flex;
 }
+
+.BrandContainer {
+  width: 50%;
+  padding: 3rem 3rem 3rem 8rem;
+}
+
+.IconsContainer {
+  width: 50%;
+  padding: 3rem 8rem 3rem 3rem;
+
+  display: flex;
+}
+
 /*** End Header Content ***/
