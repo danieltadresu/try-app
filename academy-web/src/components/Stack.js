@@ -1,4 +1,5 @@
 import classes from './Stack.module.css';
+import { IoLogoNodejs } from 'react-icons/io';
 
 function Stack() {
   return (
@@ -14,7 +15,12 @@ function Stack() {
 
       {/* TECH ICONS */}
       <section>
-        
+        {/* <IoLogoNodejs
+          style={{
+            'fontSize': '2rem',
+            'background': 'red',
+          }}
+        /> */}
       </section>
     </main>
   )
