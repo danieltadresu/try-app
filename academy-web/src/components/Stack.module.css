@@ -12,7 +12,58 @@
   text-align: center;
 }
 
-
 .Top h1 {
   font-size: 3rem;
 }
+
+/*** ICONS CONTAINER ***/
+.IconsContainer {
+  margin-top: 4rem;
+  display: flex;
+}
+
+.RightIconBox {
+  width: 50%;
+  min-height: 200px;
+  display: flex;
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.LeftIconBox {
+  width: 50%;
+  min-height: 200px;
+  display: flex;
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.Icon {
+  font-size: 5rem;
+  cursor: pointer;
+  color: #1f6feb;
+  border-bottom: 3px solid white;
+}
+
+.Icon:hover {
+  border-bottom: 3px solid #1f6feb;
+  color: white;
+}
+
+.ItemBox {
+  width: 100%;
+  padding-left: 1.9rem;
+}
+
+.ItemBox section {
+  text-align: justify;
+}
+
+.Title {
+  font-size: 1.8rem;
+  color: white;
+  padding-bottom: .8rem;
+}
+
+.Description {
+  line-height: 1.4;
+}
+/*** END ICONS CONTAINER ***/
