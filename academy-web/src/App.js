@@ -1,6 +1,7 @@
 import classes from './App.module.css';
 import Header from './components/Header';
 import Stack from './components/Stack';
+import { BsArrowDownCircle } from 'react-icons/bs';
 
 function App() {
   return (
@@ -28,6 +29,18 @@ function App() {
           </h3>
         </div>
       </main>
+      
+      {/* ARROW ICON */}
+      <section className={classes.ArrowContainer}>
+        <span>
+          <BsArrowDownCircle
+            style={{
+              'fontSize': '3rem',
+            }}
+          />
+        </span>
+      </section>
+
       <Stack />
     </div>
   );
