@@ -1,5 +1,6 @@
 import classes from './App.module.css';
 import Header from './components/Header';
+import Stack from './components/Stack';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           </h3>
         </div>
       </main>
+      <Stack />
     </div>
   );
 }

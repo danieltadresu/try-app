@@ -9,7 +9,7 @@
 
 .LeftBox {
   width: 50%;
-  padding: 3rem 3rem 3rem 8rem;
+  padding: 3rem 3rem 3rem 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
 
 .RightBox {
   width: 50%;
-  padding: 3rem 8rem 3rem 3rem;
+  padding: 3rem 10rem 3rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
