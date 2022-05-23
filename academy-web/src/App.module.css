@@ -47,6 +47,20 @@
 }
 /*** End Main Content ***/
 
+/*** Arrow Container ***/
+
+/* TO DO: Make Animations*/
+
+.ArrowContainer {
+  text-align: center;
+  margin-top: 4.5rem;
+}
+
+.ArrowContainer span {
+  cursor: pointer;
+}
+/*** End Arrow Container ***/
+
 @media screen and (max-width: 1048px) {
   .Main {
     display: flex;
