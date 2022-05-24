@@ -1,6 +1,8 @@
 import classes from './Stack.module.css';
 import { SiExpress, SiPostgresql } from 'react-icons/si';
 import { FaReact, FaAws } from 'react-icons/fa';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { DiCss3 } from 'react-icons/di';
 
 function Stack() {
   return (
@@ -18,82 +20,23 @@ function Stack() {
 
       {/* TECH ICONS */}
       <section className={classes.IconsContainer}>
-        <div className={classes.RightIconBox}>
-          <SiExpress className={classes.Icon} />
-          <div className={classes.ItemBox}>
-            <section>
-              <h1 className={classes.Title}>
-                EXPRESS
-              </h1>
-            </section>
-            <section>
-              <span className={classes.Description}>
-                Express es una infraestructura de aplicaciones web
-                Node.js mínima y flexible que proporciona un conjunto
-                sólido de características para las aplicaciones web
-                y móviles.
-              </span>
-            </section>
-          </div>
+        <div className={classes.ItemIcon}>
+          <AiFillHtml5 className={classes.Icon} />
         </div>
-        <div className={classes.LeftIconBox}>
+        <div className={classes.ItemIcon}>
+          <DiCss3 className={classes.Icon} />
+        </div>
+        <div className={classes.ItemIcon}>
           <FaReact className={classes.Icon} />
-          <div className={classes.ItemBox}>
-            <section>
-              <h1 className={classes.Title}>
-                REACT
-              </h1>
-            </section>
-            <section>
-              <span className={classes.Description}>
-                Una biblioteca de JavaScript para
-                construir interfaces de usuario. React
-                puede también renderizar desde el servidor
-                usando Node, así como potencializar aplicaciones
-                móviles usando React Native.
-              </span>
-            </section>
-          </div>
         </div>
-      </section>
-
-      <section className={classes.IconsContainer}>
-        <div className={classes.RightIconBox}>
+        <div className={classes.ItemIcon}>
+          <SiExpress className={classes.Icon} />
+        </div>
+        <div className={classes.ItemIcon}>
           <SiPostgresql className={classes.Icon} />
-          <div className={classes.ItemBox}>
-            <section>
-              <h1 className={classes.Title}>
-                POSTGRESQL
-              </h1>
-            </section>
-            <section>
-              <span className={classes.Description}>
-                Express es una infraestructura de aplicaciones web
-                Node.js mínima y flexible que proporciona un conjunto
-                sólido de características para las aplicaciones web
-                y móviles.
-              </span>
-            </section>
-          </div>
         </div>
-        <div className={classes.LeftIconBox}>
+        <div className={classes.ItemIcon}>
           <FaAws className={classes.Icon} />
-          <div className={classes.ItemBox}>
-            <section>
-              <h1 className={classes.Title}>
-                AWS
-              </h1>
-            </section>
-            <section>
-              <span className={classes.Description}>
-                Una biblioteca de JavaScript para
-                construir interfaces de usuario. React
-                puede también renderizar desde el servidor
-                usando Node, así como potencializar aplicaciones
-                móviles usando React Native.
-              </span>
-            </section>
-          </div>
         </div>
       </section>
     </main>

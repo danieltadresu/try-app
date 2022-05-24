@@ -20,50 +20,23 @@
 .IconsContainer {
   margin-top: 4rem;
   display: flex;
+  justify-content: center;
 }
 
-.RightIconBox {
-  width: 50%;
-  min-height: 200px;
-  display: flex;
-  padding: 0rem 2rem 0rem 0rem;
-}
-
-.LeftIconBox {
-  width: 50%;
-  min-height: 200px;
-  display: flex;
-  padding: 0rem 0rem 0rem 2rem;
+.ItemIcon {
+  display: inline-block;
+  margin: 0 1.5rem;
 }
 
 .Icon {
-  font-size: 5rem;
+  font-size: 6rem;
   cursor: pointer;
-  color: #1f6feb;
-  border-bottom: 3px solid white;
+  color: white;
+  opacity: 0.5;
 }
 
 .Icon:hover {
-  border-bottom: 3px solid #1f6feb;
-  color: white;
+  opacity: 1;
 }
 
-.ItemBox {
-  width: 100%;
-  padding-left: 1.9rem;
-}
-
-.ItemBox section {
-  text-align: justify;
-}
-
-.Title {
-  font-size: 1.8rem;
-  color: white;
-  padding-bottom: .8rem;
-}
-
-.Description {
-  line-height: 1.4;
-}
 /*** END ICONS CONTAINER ***/
