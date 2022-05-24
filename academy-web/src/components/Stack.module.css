@@ -1,9 +1,9 @@
-.Box {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/*** MAIN CONTAINER ***/
+.MainContainer {
   display: flex;
   flex-direction: column;
-
-  /* border: 1px solid white; */
-
   padding: 14rem 10rem 3rem 10rem;
 }
 
@@ -15,9 +15,10 @@
 .Top h1 {
   font-size: 3rem;
 }
+/*** END MAIN CONTAINER ***/
 
-/*** ICONS CONTAINER ***/
-.IconsContainer {
+/*** SECOND CONTAINER ***/
+.SecondContainer {
   margin-top: 4rem;
   display: flex;
   justify-content: center;
@@ -38,5 +39,78 @@
 .Icon:hover {
   opacity: 1;
 }
+/*** END SECOND CONTAINER ***/
 
-/*** END ICONS CONTAINER ***/
+/*** THIRD CONTAINER ***/
+.ThirdContainer {
+  margin-top: 12rem;
+  text-align: center;
+}
+
+.ThirdContainer h1 {
+  font-size: 3rem;
+}
+
+.ThirdContainer h3 {
+  /* color: #1f6feb; */
+}
+
+.BackendTechnologies {
+  margin: 5rem 0 3rem 0;
+}
+
+.BackendTechnologies h5 {
+  font-size: 1rem;
+}
+
+/** TO DO: Make a UI Component forlder wich includes this container **/
+.Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(47, 51, 68);
+  border-radius: 8px;
+
+  max-width: 200px;
+
+  padding: 1rem;;
+
+  cursor: pointer;
+
+  box-shadow: rgb(18, 20, 22) 0px 20px 30px -10px;
+
+
+  background-color: rgb(39 42 53 / 1);
+
+  opacity: 1;
+
+  margin: 0 auto;
+}
+
+.Box:hover {
+  opacity: .5;
+}
+
+.Box span {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .9rem;
+  
+  display: inline-block;
+
+  color: white;
+}
+
+.TerminalIcon {
+  display: inline-block;
+}
+
+/*** END THIRD CONTAINER ***/
+
+.FourthContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.FifthContainer {}
+
