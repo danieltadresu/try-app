@@ -14,7 +14,11 @@ import {
   DiNodejs,
   DiJava
 } from 'react-icons/di';
-import { SiMongodb, SiTailwindcss } from 'react-icons/si';
+import {
+  SiMongodb,
+  SiTailwindcss,
+  SiStyledcomponents
+} from 'react-icons/si';
 
 function Stack() {
   return (
@@ -97,6 +101,9 @@ function Stack() {
         </div>
         <div className={classes.ItemIcon}>
           <SiTailwindcss className={classes.Icon} />
+        </div>
+        <div className={classes.ItemIcon}>
+          <SiStyledcomponents className={classes.Icon} />
         </div>
       </section>
     </main>
