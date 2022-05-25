@@ -56,11 +56,15 @@
 }
 
 .BackendTechnologies {
-  margin: 5rem 0 3rem 0;
+  margin: 3rem 0 3rem 0;
 }
 
 .BackendTechnologies h5 {
   font-size: 1rem;
+}
+
+.FrontendTechnologies {
+  margin: 3rem 0 3rem 0;
 }
 
 /** TO DO: Make a UI Component forlder wich includes this container **/

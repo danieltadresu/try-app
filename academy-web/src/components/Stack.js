@@ -85,7 +85,7 @@ function Stack() {
       </section>
 
       <section className={classes.FifthContainer}>
-        <div className={classes.BackendTechnologies}>
+        <div className={classes.FrontendTechnologies}>
           <div className={classes.Box}>
             <span>FRONTEND</span>
           </div>
