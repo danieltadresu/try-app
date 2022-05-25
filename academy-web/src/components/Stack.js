@@ -1,11 +1,20 @@
 import classes from './Stack.module.css';
-import { SiExpress, SiPostgresql, SiSequelize } from 'react-icons/si';
-import { FaReact, FaAws } from 'react-icons/fa';
+import { SiExpress, SiPostgresql } from 'react-icons/si';
+import {
+  FaReact,
+  FaAws,
+  FaDocker,
+  FaVuejs,
+  FaLess
+} from 'react-icons/fa';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
-import { BsFillTerminalFill } from 'react-icons/bs';
-import { DiDjango, DiNodejs, DiMongodb } from 'react-icons/di';
-import { SiMongodb, SiNextdotjs } from 'react-icons/si';
+import {
+  DiDjango,
+  DiNodejs,
+  DiJava
+} from 'react-icons/di';
+import { SiMongodb, SiTailwindcss } from 'react-icons/si';
 
 function Stack() {
   return (
@@ -55,16 +64,16 @@ function Stack() {
 
       <section className={classes.FourthContainer}>
         <div className={classes.ItemIcon}>
-          <SiNextdotjs className={classes.Icon} />
-        </div>
-        <div className={classes.ItemIcon}>
           <DiNodejs className={classes.Icon} />
         </div>
         <div className={classes.ItemIcon}>
-          <SiSequelize className={classes.Icon} />
+          <DiDjango className={classes.Icon} />
         </div>
         <div className={classes.ItemIcon}>
-          <DiDjango className={classes.Icon} />
+          <FaDocker className={classes.Icon} />
+        </div>
+        <div className={classes.ItemIcon}>
+          <DiJava className={classes.Icon} />
         </div>
         <div className={classes.ItemIcon}>
           <SiMongodb className={classes.Icon} />
@@ -81,19 +90,13 @@ function Stack() {
 
       <section className={classes.FourthContainer}>
         <div className={classes.ItemIcon}>
-          <SiNextdotjs className={classes.Icon} />
+          <FaVuejs className={classes.Icon} />
         </div>
         <div className={classes.ItemIcon}>
-          <DiNodejs className={classes.Icon} />
+          <FaLess className={classes.Icon} />
         </div>
         <div className={classes.ItemIcon}>
-          <SiSequelize className={classes.Icon} />
-        </div>
-        <div className={classes.ItemIcon}>
-          <DiDjango className={classes.Icon} />
-        </div>
-        <div className={classes.ItemIcon}>
-          <SiMongodb className={classes.Icon} />
+          <SiTailwindcss className={classes.Icon} />
         </div>
       </section>
     </main>
