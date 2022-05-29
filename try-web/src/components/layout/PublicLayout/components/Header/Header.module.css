@@ -1,0 +1,21 @@
+/*** Header Content ***/
+.Header {
+    width: 100%;
+  
+    display: flex;
+  }
+  
+  .BrandContainer {
+    width: 50%;
+    padding: 3rem 3rem 3rem 10rem;
+  }
+  
+  .IconsContainer {
+    width: 50%;
+    padding: 3rem 10rem 3rem 3rem;
+  
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /*** End Header Content ***/

@@ -2,7 +2,7 @@
 import classes from './Logo.module.css';
 
 // assets
-import brand from '../assets/images/brand.png';
+import brand from '../../../../../assets/images/brand.png';
 
 const Logo = () => (
   <div

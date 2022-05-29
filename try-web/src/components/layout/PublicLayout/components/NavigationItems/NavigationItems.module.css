@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.NavigationItems {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .9rem;
+
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Container {
+  display: flex;
+
+  background-color: rgb(47, 51, 68);
+  border-radius: 8px;
+}
+
+.FirstItem {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+
+  padding: 0 1rem;
+  cursor: pointer;
+
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+}
+
+.SecondItem {
+  padding: 0 1rem;
+  cursor: pointer;
+
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+}
+
+.ThirdItem {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+
+  padding: 0 1rem;
+  cursor: pointer;
+
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+}
+
+.FirstItem:hover {
+  background-color: rgb(28, 29, 36);
+
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.SecondItem:hover {
+  background-color: rgb(28, 29, 36);
+}
+
+.ThirdItem:hover {
+  background-color: rgb(28, 29, 36);
+
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
