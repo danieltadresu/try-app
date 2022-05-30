@@ -1,0 +1,94 @@
+/*** Main Content ***/
+/*** screens major than 1100 px ***/
+.Main {
+  display: flex;
+}
+
+.LeftBox {
+  width: 50%;
+  padding: 3rem 3rem 3rem 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left; /* TO DO: Make effect when runs page */
+
+  /* Transition */
+  transition: padding 2s;
+}
+
+.RightBox {
+  width: 50%;
+  padding: 3rem 10rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: right; /* TO DO: Make effect when runs page */
+}
+
+.Title {
+  font-size: 3.4rem;
+}
+
+.SubTitle {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  line-height: 1.4;
+}
+
+.Markdown {
+  color: #1f6feb;
+  font-weight: 900;
+}
+
+.SubMarkdown {
+  color: white;
+}
+/*** End Main Content ***/
+
+/*** Main Responsive Content ***/
+/*** screens minor than 1100 px***/
+@media screen and (max-width: 1100px) {
+  .LeftBox {
+    padding: 3rem 3rem 3rem 5rem;
+  }
+
+  .RightBox {
+    padding: 3rem 5rem 3rem 3rem;
+  }
+}
+/*** End Main Responsive Content ***/
+
+/*** Main Responsive Content ***/
+/*** screens minor than 1000 px***/
+@media screen and (max-width: 1000px) {
+  .Main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LeftBox {
+    width: 100%;
+
+    padding: 3rem 3rem 3rem 5rem;
+  }
+
+  .RightBox {
+    width: 100%;
+
+    padding: 3rem 5rem 3rem 3rem;
+  }
+
+  .Separator {
+    display: none;
+  }
+}
+/*** End Main Responsive Content ***/
+
+/*** Arrow container ***/
+.ArrowContainer {
+  text-align: center;
+  margin-top: 4.5rem;
+}
+/*** End Arrow container ***/
